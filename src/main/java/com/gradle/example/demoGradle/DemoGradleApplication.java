@@ -8,5 +8,8 @@ public class DemoGradleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoGradleApplication.class, args);
+		
+		for (int i=0;i<10;i++)
+			System.out.println("Hi "+i);
 	}
 }
