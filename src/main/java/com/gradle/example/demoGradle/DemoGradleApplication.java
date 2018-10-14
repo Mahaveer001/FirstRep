@@ -10,6 +10,6 @@ public class DemoGradleApplication {
 		SpringApplication.run(DemoGradleApplication.class, args);
 		
 		for (int i=0;i<10;i++)
-			System.out.println("Hi "+i);
+			System.out.println("hi "+i);
 	}
 }
